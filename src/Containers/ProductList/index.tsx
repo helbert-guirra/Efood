@@ -82,7 +82,7 @@ const ProductList = () => {
                 <p>{selectedProduct.descricao}</p>
                 <span>Serve de: {selectedProduct.porcao}</span>
                 <button onClick={addToCart}>
-                  Adicionar ao carrinho {formataPreco(selectedProduct.preco)}
+                  Comprar o produto {formataPreco(selectedProduct.preco)}
                 </button>
               </div>
             </ModalContainer>
