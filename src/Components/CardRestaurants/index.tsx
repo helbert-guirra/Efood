@@ -67,7 +67,7 @@ const Restaurant = ({
         <Description>{getDescription(descricao)}</Description>
         <Link to={`/restaurant/${id}`}>
           {' '}
-          <Button>Saiba mais</Button>{' '}
+          <Button>Saiba Mais</Button>{' '}
         </Link>
       </CardContainer>
       <Tag>{tipo}</Tag>
