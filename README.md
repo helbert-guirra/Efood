@@ -1,3 +1,54 @@
+# Efood 🍽️
+
+**Efood** é um aplicativo web (front-end) que permite usuários visualizar cardápios/restaurantes, fazer pedidos, etc. *(Este projeto é pra fins de  pratica de estudo.)*
+
+---
+
+## 🧠 Tecnologias utilizadas
+
+- **React** + **TypeScript** — interface de usuário  
+- **SCSS** — estilização  
+- **Vite** ou **Create React App** (dependendo do que usou) — scaffold / bundler  
+- State management / Hooks (ex: Context API, Redux, etc) — se aplicável  
+- Outras bibliotecas (ex: axios para requisições, react-router, etc)  
+
+---
+
+## 📊 Funcionalidades
+
+- Navegar entre diferentes restaurantes ou cardápios  
+- Ver detalhes de prato (ingredientes, preços, fotos)  
+- Adicionar/remover itens no carrinho  
+- Finalizar pedido (simulação ou integração real)  
+- Interface responsiva para desktop e mobile  
+
+> *(adicione ou remova funcionalidades de acordo com o que você implementou)*
+
+---
+
+## ⚙️ Instalação e execução local
+
+Siga estes passos para executar o projeto na sua máquina:
+
+```bash
+# clone o repositório
+git clone https://github.com/helbert-guirra/Efood.git
+
+# acesse a pasta do projeto
+cd Efood
+
+# instale as dependências
+npm install
+# ou
+yarn install
+
+# rode em modo de desenvolvimento
+npm start
+# ou
+yarn start
+
+# o app vai abrir em http://localhost:3000 (ou outra porta que configurou)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
