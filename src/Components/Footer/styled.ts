@@ -17,6 +17,7 @@ export const Socialcontainer = styled.div`
 export const SocialIcon = styled.img`
   width: 24px;
   height: 24px;
+  cursor: pointer;
 `
 export const Copy = styled.p`
   font-size: 10px;

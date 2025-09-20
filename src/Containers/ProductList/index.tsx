@@ -30,11 +30,13 @@ const ProductList = () => {
   const dispatch = useDispatch()
 
   const addToCart = () => {
-    dispatch(add(selectedProduct!))
-    dispatch(open())
-    setModal({
-      isVisible: false
-    })
+    if (selectedProduct) {
+      dispatch(add(selectedProduct))
+      dispatch(open())
+      setModal({
+        isVisible: false
+      })
+    }
   }
 
   useEffect(() => {
